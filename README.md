@@ -1,6 +1,6 @@
 # Arrgh.js - Painless dynamic function arguments
 
-## Do you know feel that pain?
+## Do you know that pain?
 
 Dynamic typing in JavaScript is great and the flexibility it provides to create API's is fantastic. However, without 
 named parameters in ES5, and the rigid way JavaScript handles function arguments, it introduces a lot of code smell.
@@ -10,8 +10,10 @@ Look at this simple example:
 ```javascript
 function addDataAttribute(nodeList, attributeName, value) {
   // Type check on our dynamic argument... let's face it... ugly as hell
-  if(typeof nodeList !== 'string' || !Array.isArray(nodeList) || !nodeList instanceof NodeList) {
-    throw new Error('nodeList should be a query string, array of DOM nodes or a NodeList');
+  if(typeof nodeList !== 'string' || 
+      !Array.isArray(nodeList) || 
+      !nodeList instanceof NodeList) {
+    throw new Error('Invalid arguments!');
   }
 
   // Assuming nodeList is a query
@@ -23,7 +25,7 @@ function addDataAttribute(nodeList, attributeName, value) {
   
   if(!Array.isArray(nodeList)) {
     // Trying to cast original node list or node list obtained from 
-    // document (Arrrg! This is getting weird already) to array
+    // document (Arrgh! This is getting weird already) to array
     nodeList = Array.prototype.slice.call(nodeList);
   }
   
@@ -46,3 +48,4 @@ of dynamic typing in JavaScript. But look at the smelly code we've created to ma
 
 ## Let's talk about Arrghuments!
 
+coming soon...
