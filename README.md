@@ -1,4 +1,5 @@
 # Arrgh.js - Painless dynamic function arguments
+[![npm version](http://img.shields.io/npm/v/arrgh.js.svg)](https://npmjs.org/package/arrgh.js) [![build status](http://img.shields.io/travis/gionkunz/arrgh.js.svg)](https://travis-ci.org/gionkunz/arrgh.js)
 
 ## Do you know that pain?
 

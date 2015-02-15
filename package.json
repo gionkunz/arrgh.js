@@ -1,6 +1,6 @@
 {
   "name": "arrgh.js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Painless dynamic function arguments",
   "main": "./dist/arrgh.min.js",
   "browser": "./dist/arrgh.min.js",

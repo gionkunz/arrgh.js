@@ -1,4 +1,4 @@
-/* Arrg.js 1.0.0
+/* Arrg.js 0.0.1
  * Copyright © 2015 Gion Kunz
  * Free to use under the WTFPL license.
  * http://www.wtfpl.net/
